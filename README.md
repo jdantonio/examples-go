@@ -1,0 +1,3 @@
+# Go Programming Examples
+
+A bunch of stuff I've written while learning Go. There's nothing really to see here. Move along...
