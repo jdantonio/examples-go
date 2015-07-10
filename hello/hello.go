@@ -1,8 +1,8 @@
-package main
+package hello
 
 import "fmt"
 
-func main() {
+func World() {
 
 	words := [...]string{"Hello, world", "你好，世界", "καλημ ́ρα κóσμ", "こんにちは世界"}
 
