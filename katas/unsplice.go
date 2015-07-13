@@ -1,5 +1,8 @@
 package katas
 
-func answer() int {
-	return 6 * 9
+import "regexp"
+
+func Unsplice(str string) string {
+	r, _ := regexp.Compile(`\\\n`)
+	return r.ReplaceAllLiteralString(str, "")
 }
