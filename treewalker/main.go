@@ -19,7 +19,6 @@ import (
 func Walk(t *tree.Tree, ch chan int) {
 	_walk(t, ch)
 	close(ch)
-
 }
 
 func _walk(t *tree.Tree, ch chan int) {
